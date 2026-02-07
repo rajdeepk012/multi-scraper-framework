@@ -16,38 +16,6 @@ Built for real-world use: these scrapers feed branch data into Salesforce CRM fo
 
 ---
 
-## Architecture
-
-```mermaid
-flowchart TD
-    subgraph S1["1 - Scraping"]
-        direction LR
-        BS4["BeautifulSoup"]
-        API["Direct API"]
-        PW["Playwright"]
-        SEL["Selenium"]
-        HYB["Hybrid"]
-    end
-
-    subgraph S2["2 - Post-Processing"]
-        direction LR
-        GEO["Geocoding"]
-        VAL["Validation"]
-        SIM["Fuzzy Match"]
-    end
-
-    subgraph S3["3 - Output"]
-        CSV["CSV / XLSX"]
-    end
-
-    S1 --> GEO
-    GEO --> VAL
-    VAL --> SIM
-    SIM --> CSV
-```
-
----
-
 ## Scraping Methods at a Glance
 
 | # | Method | Speed | Complexity | Example Banks | Key Technique |
@@ -99,8 +67,8 @@ Each example includes: Python script(s) + CSV data + XLSX data + README.
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # Clone and set up
-git clone https://github.com/yourusername/india-branch-data-pipeline.git
-cd india-branch-data-pipeline
+git clone https://github.com/rajdeepk012/multi-scraper-framework.git
+cd multi-scraper-framework
 
 # Create venv + install all dependencies in one step
 uv sync
@@ -112,8 +80,8 @@ uv pip install -r requirements.txt
 #### Option B: Using pip
 
 ```bash
-git clone https://github.com/yourusername/india-branch-data-pipeline.git
-cd india-branch-data-pipeline
+git clone https://github.com/rajdeepk012/multi-scraper-framework.git
+cd multi-scraper-framework
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 ```

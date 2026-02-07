@@ -1,0 +1,6 @@
+Branch Name,Address,Google Maps Link,Expanded URL,Latitude,Longitude,Extraction Success,Error
+"SBI Connaught Place","N Block, Connaught Place, New Delhi 110001","https://maps.app.goo.gl/abc123","https://www.google.com/maps/place/.../@28.6315,77.2167,17z/","28.6315","77.2167","True",""
+"HDFC Bandra","Turner Road, Bandra West, Mumbai 400050","https://maps.app.goo.gl/def456","https://www.google.com/maps/place/.../@19.0596,72.8295,17z/","19.0596","72.8295","True",""
+"ICICI Koramangala","80 Feet Road, Koramangala, Bangalore 560034","https://maps.app.goo.gl/ghi789","https://www.google.com/maps/place/.../@12.9352,77.6245,17z/","12.9352","77.6245","True",""
+"PNB Sector 17","SCO 45, Sector 17, Chandigarh 160017","https://maps.app.goo.gl/jkl012","https://www.google.com/maps/place/.../@30.7415,76.7836,17z/","30.7415","76.7836","True",""
+"BOB Civil Lines","Civil Lines, Jaipur 302006","https://maps.app.goo.gl/mno345","https://www.google.com/maps/place/.../@26.9124,75.7873,17z/","26.9124","75.7873","True",""

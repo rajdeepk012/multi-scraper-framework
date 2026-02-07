@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large data dumps (keep CSVs and XLSX, skip raw JSON/HTML dumps)
+*.json
+!package.json
+*.html
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
